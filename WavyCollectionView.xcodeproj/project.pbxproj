@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA4254311E5F863F004B4268 /* WavyViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4254301E5F863F004B4268 /* WavyViewLayout.m */; };
 		DAE608A91E5F6DE00058380D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE608A81E5F6DE00058380D /* main.m */; };
 		DAE608AC1E5F6DE00058380D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE608AB1E5F6DE00058380D /* AppDelegate.m */; };
 		DAE608AF1E5F6DE00058380D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE608AE1E5F6DE00058380D /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA42542F1E5F863F004B4268 /* WavyViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WavyViewLayout.h; sourceTree = "<group>"; };
+		DA4254301E5F863F004B4268 /* WavyViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WavyViewLayout.m; sourceTree = "<group>"; };
 		DAE608A41E5F6DE00058380D /* WavyCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WavyCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE608A81E5F6DE00058380D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DAE608AA1E5F6DE00058380D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,6 +73,8 @@
 				DAE608BB1E5F6DE00058380D /* Info.plist */,
 				DAE608B31E5F6DE00058380D /* WavyCollectionView.xcdatamodeld */,
 				DAE608A71E5F6DE00058380D /* Supporting Files */,
+				DA42542F1E5F863F004B4268 /* WavyViewLayout.h */,
+				DA4254301E5F863F004B4268 /* WavyViewLayout.m */,
 			);
 			path = WavyCollectionView;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 			files = (
 				DAE608AF1E5F6DE00058380D /* ViewController.m in Sources */,
 				DAE608B51E5F6DE00058380D /* WavyCollectionView.xcdatamodeld in Sources */,
+				DA4254311E5F863F004B4268 /* WavyViewLayout.m in Sources */,
 				DAE608AC1E5F6DE00058380D /* AppDelegate.m in Sources */,
 				DAE608A91E5F6DE00058380D /* main.m in Sources */,
 			);
@@ -316,6 +322,7 @@
 				DAE608C01E5F6DE00058380D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
