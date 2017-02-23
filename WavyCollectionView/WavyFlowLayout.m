@@ -16,9 +16,9 @@
 
 @implementation WavyViewLayout
 
-- (CGSize)collectionViewContentSize {
-    return CGSizeMake(200, 200);
-}
+//- (CGSize)collectionViewContentSize {
+//    return CGSizeMake(200, 200);
+//}
 
 //- (NSArray<UICollectionViewLayoutAttributes *> *)layoutAttributesForElementsInRect:(CGRect)rect {
 //    
