@@ -1,41 +1,38 @@
 //
-//  WavyViewLayout.m
+//  WavyFlowLayout.m
 //  WavyCollectionView
 //
 //  Created by Hyung Jip Moon on 2017-02-23.
 //  Copyright © 2017 leomoon. All rights reserved.
 //
 
-#import "WavyViewLayout.h"
+#import "WavyFlowLayout.h"
 
-@interface WavyViewLayout ()
+@interface WavyFlowLayout ()
 
 @property (nonatomic) NSArray *savedAttributes;
 
 @end
 
-@implementation WavyViewLayout
+@implementation WavyFlowLayout
 
-//- (CGSize)collectionViewContentSize {
-//    return CGSizeMake(200, 200);
-//}
 
-//- (NSArray<UICollectionViewLayoutAttributes *> *)layoutAttributesForElementsInRect:(CGRect)rect {
-//    
-//    NSMutableArray *result = [NSMutableArray array];
-//    
-//    for (UICollectionViewLayoutAttributes *attributes in self.savedAttributes) {
-//        if (CGRectIntersectsRect(attributes.frame, rect)) {
-//            [result addObject:attributes];
-//        }
-//    }
-//    
-//    return result;
-//}
+- (NSArray<UICollectionViewLayoutAttributes *> *)layoutAttributesForElementsInRect:(CGRect)rect {
+    NSArray<UICollectionViewLayoutAttributes *> *superAttrs = [super layoutAttributesForElementsInRect:rect];
+
+    NSMutableArray<UICollectionViewLayoutAttributes *> *newAttrs = [[NSMutableArray alloc]init];
+
+    // Copy NSArray elements into the NSMutableArray
+    newAttrs = [NSMutableArray arrayWithArray:superAttrs];
+    
+
+    return newAttrs;
+}
 
 - (void)prepareLayout {
 
     self.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+    
     self.itemSize = CGSizeMake(100,50);
     self.minimumInteritemSpacing = CGFLOAT_MAX;
 }

@@ -1,5 +1,5 @@
 //
-//  WavyViewLayout.h
+//  WavyFlowLayout.h
 //  WavyCollectionView
 //
 //  Created by Hyung Jip Moon on 2017-02-23.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WavyViewLayout : UICollectionViewFlowLayout
+@interface WavyFlowLayout : UICollectionViewFlowLayout
 
 @end
