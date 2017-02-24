@@ -25,7 +25,12 @@
     // Copy NSArray elements into the NSMutableArray
     newAttrs = [NSMutableArray arrayWithArray:superAttrs];
     
-
+    // Go through for loop in new NSMutable Array to set each element's position
+    for (UICollectionViewLayoutAttributes *attributes in newAttrs) {
+        
+        attributes.frame = CGRectMake(attributes.frame.origin.x, arc4random_uniform(1000), self.itemSize.width, self.itemSize.height);
+    }
+    
     return newAttrs;
 }
 

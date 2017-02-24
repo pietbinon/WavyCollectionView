@@ -37,11 +37,10 @@ static NSString * const reuseIdentifier = @"myCell";
 
 - (void) setUpLayout{
     
-    WavyFlowLayout *newFlowLayout = [[WavyFlowLayout alloc] init];
-    self.collectionView.collectionViewLayout = newFlowLayout;
+    WavyFlowLayout *wavyFlowLayout = [[WavyFlowLayout alloc] init];
+    self.collectionView.collectionViewLayout = wavyFlowLayout;
     
 }
-
 
 #pragma mark <UICollectionViewDataSource>
 
@@ -57,8 +56,6 @@ static NSString * const reuseIdentifier = @"myCell";
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
-    
-    
     
     // Configure the cell
     
