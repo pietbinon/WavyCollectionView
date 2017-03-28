@@ -63,18 +63,15 @@
 		DAE608A61E5F6DE00058380D /* WavyCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				DA42542F1E5F863F004B4268 /* WavyFlowLayout.h */,
+				DA4254301E5F863F004B4268 /* WavyFlowLayout.m */,
 				DAE608AA1E5F6DE00058380D /* AppDelegate.h */,
 				DAE608AB1E5F6DE00058380D /* AppDelegate.m */,
 				DAE608AD1E5F6DE00058380D /* ViewController.h */,
 				DAE608AE1E5F6DE00058380D /* ViewController.m */,
 				DAE608B01E5F6DE00058380D /* Main.storyboard */,
-				DAE608B61E5F6DE00058380D /* Assets.xcassets */,
 				DAE608B81E5F6DE00058380D /* LaunchScreen.storyboard */,
-				DAE608BB1E5F6DE00058380D /* Info.plist */,
-				DAE608B31E5F6DE00058380D /* WavyCollectionView.xcdatamodeld */,
 				DAE608A71E5F6DE00058380D /* Supporting Files */,
-				DA42542F1E5F863F004B4268 /* WavyFlowLayout.h */,
-				DA4254301E5F863F004B4268 /* WavyFlowLayout.m */,
 			);
 			path = WavyCollectionView;
 			sourceTree = "<group>";
@@ -82,6 +79,9 @@
 		DAE608A71E5F6DE00058380D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DAE608B61E5F6DE00058380D /* Assets.xcassets */,
+				DAE608BB1E5F6DE00058380D /* Info.plist */,
+				DAE608B31E5F6DE00058380D /* WavyCollectionView.xcdatamodeld */,
 				DAE608A81E5F6DE00058380D /* main.m */,
 			);
 			name = "Supporting Files";
